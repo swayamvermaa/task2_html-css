@@ -1,0 +1,52 @@
+:root{
+    --color:rgb(137, 217, 246);
+    --seccolor:rgb(0, 255, 255);
+    --defpad:20px;
+    --defop:0.4;
+}
+.swayam{
+    list-style: none;
+    /* text-align: end; */
+    /* display: flex; */
+    border: 2px solid var(--color);
+    background-color: var(--color);
+    margin: auto;
+    padding: 20px;
+    box-sizing: border-box;
+    /* width: 100vw; */
+    /* border-radius: 25px; */
+    box-shadow: 5px 5px 10px rgb(18, 150, 216);
+}
+#aa{
+    margin: 20px;
+    padding: 20px;
+    display: inline;
+}
+#bb{
+    margin: var(--defpad);
+    padding: var(--defpad);
+    display: inline;
+}
+#cc{
+    margin: var(--defpad);
+    padding: var(--defpad);
+    display: inline;
+}
+#dd{
+    margin: var(--defpad);
+    padding: var(--defpad);
+    display: inline;
+    position: relative;
+    left:687px;
+}
+body{
+    background-color: var(--seccolor);
+    margin: 0px;
+    padding: 0px;
+    width: 100vw;
+}
+a{
+    text-decoration: none;
+    color: green;
+
+}
